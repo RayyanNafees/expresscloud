@@ -1,0 +1,30 @@
+{
+	"name": "expresscloud",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"start": "node --env-file .env --watch server",
+		"dev": "node --env-file .env server",
+		"prof": "node --env-file .env --prof server"
+	},
+	"dependencies": {
+		"cloudinary": "^2.1.0",
+		"cookie-parser": "~1.4.4",
+		"debug": "~2.6.9",
+		"express": "~4.16.1",
+		"express-engine-jsx": "^3.6.1",
+		"http-errors": "~1.6.3",
+		"morgan": "~1.9.1",
+		"multer": "^1.4.5-lts.1",
+		"multer-storage-cloudinary": "^4.0.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"type": "module",
+	"devDependencies": {
+		"@types/cookie-parser": "^1.4.7",
+		"@types/express": "^4.17.21",
+		"@types/morgan": "^1.9.9",
+		"@types/multer": "^1.4.11"
+	}
+}
